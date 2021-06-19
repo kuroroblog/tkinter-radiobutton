@@ -33,7 +33,7 @@ class Application(tk.Frame):
         self.variable.set('B')
 
         # frame Widget(Frame)を親要素として、Aのradiobutton Widgetを作成する。
-        # variable : 現在選択中のラジオボタンの値を格納する。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
+        # variable : 現在選択中のラジオボタンの値を設定。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
         # value : ラジオボタン自身が持つ値の設定。Aとする。
         # text : ラジオボタンを説明するテキスト。Option Aとする。
         # command : ラジオボタンが選択された場合に実行する関数を設定する。self.showValue関数を設定する。
@@ -44,7 +44,7 @@ class Application(tk.Frame):
         self.aButton.pack()
 
         # frame Widget(Frame)を親要素として、Bのradiobutton Widgetを作成する。
-        # variable : 現在選択中のラジオボタンの値を格納する。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
+        # variable : 現在選択中のラジオボタンの値を設定。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
         # value : ラジオボタン自身が持つ値の設定。Bとする。
         # text : ラジオボタンを説明するテキスト。Option Bとする。
         # command : ラジオボタンが選択された場合に実行する関数を設定する。self.showValue関数を設定する。
@@ -55,7 +55,7 @@ class Application(tk.Frame):
         self.bButton.pack()
 
         # frame Widget(Frame)を親要素として、Cのradiobutton Widgetを作成する。
-        # variable : 現在選択中のラジオボタンの値を格納する。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
+        # variable : 現在選択中のラジオボタンの値を設定。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
         # value : ラジオボタン自身が持つ値の設定。Cとする。
         # text : ラジオボタンを説明するテキスト。Option Cとする。
         # command : ラジオボタンが選択された場合に実行する関数を設定する。self.showValue関数を設定する。
@@ -65,8 +65,8 @@ class Application(tk.Frame):
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         self.cButton.pack()
 
-        # frame Widget(Frame)を親要素として、dのradiobutton Widgetを作成する。
-        # variable : 現在選択中のラジオボタンの値を格納する。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
+        # frame Widget(Frame)を親要素として、Dのradiobutton Widgetを作成する。
+        # variable : 現在選択中のラジオボタンの値を設定。文字列変数(self.variable)として値を持たせることで、可変として扱い、その他のラジオボタンへ値を共有して選択の状態を管理できる。
         # value : ラジオボタン自身が持つ値の設定。Cとする。
         # text : ラジオボタンを説明するテキスト。Option Dとする。
         # command : ラジオボタンが選択された場合に実行する関数を設定する。self.showValue関数を設定する。
