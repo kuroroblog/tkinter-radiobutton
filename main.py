@@ -29,7 +29,7 @@ class Application(tk.Frame):
         # 現在選択されているラジオボタンの値を文字列変数として扱う。
         # StringVarについて : https://kuroro.blog/python/K53voPjJuKFfYrjmP8FP/
         self.variable = tk.StringVar()
-        # set() : 引数の値に該当するラジオボタンを選択する。初期値としてBの値を持つラジオボタンを選択。
+        # set() : 初期値としてBの値を設定する。
         self.variable.set('B')
 
         # frame Widget(Frame)を親要素として、Aのradiobutton Widgetを作成する。
